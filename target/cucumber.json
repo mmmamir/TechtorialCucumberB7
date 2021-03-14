@@ -1,0 +1,180 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Navigates to Etsy",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7986559000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user navigates to the \"https://www.Etsy.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.Etsy.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.com.etsySteps.EtsySearchSteps.the_user_navigates_to_the(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-14T05:53:38.618Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1567000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsySteps.EtsySearchSteps.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 186000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsySteps.EtsySearchSteps.conditionalHook()"
+            }
+          },
+          {
+            "result": {
+              "duration": 164000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsySteps.EtsySearchSteps.beforeStep()"
+            }
+          },
+          {
+            "result": {
+              "duration": 249000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.Hooks.before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validation of etsy search Key",
+        "description": "",
+        "id": "etsy-search-functionality;validation-of-etsy-search-key",
+        "after": [
+          {
+            "result": {
+              "duration": 810000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 139000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsySteps.EtsySearchSteps.afterStep()"
+            }
+          },
+          {
+            "result": {
+              "duration": 851000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsySteps.EtsySearchSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8120605000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user search with \"Key\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Key\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.com.etsySteps.EtsySearchSteps.the_user_search_with(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15289000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should see the title \"Key | Etsy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Key | Etsy\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.com.etsySteps.EtsySearchSteps.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@key"
+          },
+          {
+            "name": "@tc2"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Etsy Search Functionality",
+    "description": "",
+    "id": "etsy-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.etsy/EtsySearch.feature",
+    "tags": [
+      {
+        "name": "@search",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

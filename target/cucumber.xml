@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.303">
+    <testcase classname="Etsy Search Functionality" name="Validation of etsy search Key" time="16.177">
+        <system-out><![CDATA[Given the user navigates to the "https://www.Etsy.com"......................passed
+When the user search with "Key".............................................passed
+Then the user should see the title "Key | Etsy".............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
